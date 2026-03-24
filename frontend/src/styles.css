@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color: #f7f7f7;
+  background: #151515;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0f0f10;
+}
+
+.app-shell {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.card {
+  background: #1f1f22;
+  border: 1px solid #2a2a31;
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+input,
+select,
+textarea,
+button {
+  border-radius: 8px;
+  border: 1px solid #34343d;
+  padding: 0.55rem;
+  background: #121218;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.scene-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.scene-item {
+  border: 1px solid #2f2f35;
+  border-radius: 10px;
+  padding: 0.8rem;
+  background: #191920;
+}
+
+.error-banner {
+  background: #492828;
+  border: 1px solid #724141;
+  border-radius: 8px;
+  padding: 0.65rem;
+}
